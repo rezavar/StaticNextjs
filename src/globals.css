@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('./assets/fonts/IRANSansWeb(FaNum).woff2') format('woff2'),
+  url('./assets/fonts/IRANSansWeb(FaNum).woff') format('woff'),
+  url('./assets/fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+  font-style: normal;
+}
+
+:root {
+  font-family: IRANSans, serif;
+  /*--background: #ffffff;*/
+  /*--foreground: #171717;*/
+}
+*{
+  font-family: IRANSans, serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*--background: #0a0a0a;*/
+    /*--foreground: #ededed;*/
+  }
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  /*color: var(--foreground);*/
+  /*background: var(--background);*/
+  /*font-family: IRANSans;*/
+}
