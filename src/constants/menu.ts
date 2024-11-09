@@ -9,25 +9,25 @@ const navs:INavItems = [
     },
     {
         title:'contact us',
-        link:'/contact',
+        link:'/contact/',
         text:'تماس با ما',
         target:'_self'
     },
     {
         title:'about company',
-        link:'/about',
+        link:'/about/',
         text:'درباره ما',
         target:'_self'
     },
     {
         title:'rules',
-        link:'/rules',
+        link:'/rules/',
         text:'قوانین',
         target:'_self'
     },
     {
         title:'weblog',
-        link:'/blog',
+        link:'/blog/',
         text:'وبلاگ',
         target:'_blank'
     },

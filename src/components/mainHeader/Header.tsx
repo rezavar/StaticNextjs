@@ -5,6 +5,7 @@ import headerLogo from "@/assets/image/headerLogo2.png"
 import Image from "next/image";
 
 function Header() {
+
     return (
         <header className={"bg-[#4870f5] text-white rounded-b-[3rem] shadow-lg"}>
             <Menu />

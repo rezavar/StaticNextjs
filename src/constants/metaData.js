@@ -1,13 +1,16 @@
+import {getBasePath} from "@/helper/path";
+
 export const mainMetaData = {
     title: "بامن24 | استعلام قبض، شارژ و اینترنت، خدمات چک",
     description: "مرجع پرداخت قبوض آب، برق، گاز و تلفن، علاوه بر استعلام قبوض میتوانید اقدام به خرید شارژ و استفاده از بهترین طرح های اینترنت همراه از تمامی اپراتورها کنید",
+    // manifest: "/custom/path/manifest.webmanifest",
     icons: {
-        icon: '/icons/favicon.ico',
-        apple: '/icons/logo_192.png',
+        icon: getBasePath()+'/icons/favicon.ico',
+        apple: getBasePath()+'/icons/logo_192.png',
         other: [
             {
                 rel: 'manifest',
-                url: '/manifest.json',
+                url:getBasePath()+'/manifest.json',
             },
         ],
     },
@@ -32,5 +35,5 @@ export const mainMetaData = {
         'خدمات چک صیاد',
         'استعلام ثبت چک','استعلام تایید چک','استعلام خوش حسابی',
         'تایید چک','ثبت چک','انتقال چک','چک صیاد'
-    ],
+    ]
 }

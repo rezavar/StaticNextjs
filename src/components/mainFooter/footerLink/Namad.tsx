@@ -13,7 +13,7 @@ function Namad() {
             <a href="https://trustseal.enamad.ir/?id=118658&amp;Code=Z282AJQiIvNqfhWSiCfD"
                className={cssLinkClass} target="_blank" data-tooltip="نماد اعتماد الکترونیکی"
                referrerPolicy="origin">
-                <Image alt="" src="https://trustseal.enamad.ir/logo.aspx?id=118658&amp;Code=Z282AJQiIvNqfhWSiCfD"
+                <img alt="" src="https://trustseal.enamad.ir/logo.aspx?id=118658&amp;Code=Z282AJQiIvNqfhWSiCfD"
                      className={cssImgClass} id="Z282AJQiIvNqfhWSiCfD"
                      referrerPolicy="origin" style={{cursor: "pointer"}}/>
             </a>

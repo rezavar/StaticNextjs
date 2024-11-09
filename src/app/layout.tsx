@@ -3,8 +3,11 @@ import "../globals.css";
 import Header from "@/components/mainHeader/Header";
 import {mainMetaData} from "@/constants/metaData";
 import Footer from "@/components/mainFooter/Footer";
+import React from "react";
 
 export const metadata: Metadata = mainMetaData;
+
+
 
 export default function RootLayout({
   children,
@@ -14,12 +17,12 @@ export default function RootLayout({
   return (
     <html lang="fa" translate="no">
     <head>
-      <meta httpEquiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html;charset=utf-8"/>
       <title>بامن24</title>
     </head>
     <body>
-      <Header />
-      {children}
+    <Header/>
+    {children}
     <Footer />
     </body>
     </html>

@@ -3,9 +3,7 @@
   "dir": "rtl",
   "description": "بامَن 24 | پرداخت قبوض، خرید شارژ و بسته اینترنت",
   "name": "بامن۲۴",
-  "author": "Baman24 Co.",
   "short_name": "baman24",
-  "manifest_version": "1.0",
   "theme_color": "#4870F5",
   "background_color": "#4870F5",
   "display": "standalone",
@@ -13,7 +11,6 @@
   "start_url": ".",
   "scope": "/",
   "orientation": "portrait",
-  "form_factor": "all",
   "icons": [
     {
       "src": "icons/logo_72.png",
