@@ -4,7 +4,7 @@ import ZFlowContents from "@/components/content/ZFlowContents";
 
 export default function Home() {
   return (
-      <div className="my-3 px-36">
+      <div className="my-3 md:px-36 sm:px-14 px-6">
           <section className="text-gray-600">
               {
                   Object.keys(contents).map((key,i)=>{

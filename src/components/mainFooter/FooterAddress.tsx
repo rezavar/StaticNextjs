@@ -2,8 +2,8 @@ import React from 'react';
 
 function FooterAddress() {
     return (
-        <div className="flex flex-wrap px-20 py-3.5 text-xs text-slate-700	">
-            <div className={"flex flex-wrap text-center md:w-2/3  w-full md:pb-0 pb-8"}>
+        <div className="flex flex-wrap lg:px-20 md:px-8 px-6 py-3.5 text-xs text-slate-700	">
+            <div className={"flex flex-wrap md:text-center text-right md:w-2/3  w-full md:pb-0 pb-8"}>
                 <span className="md:w-1/3 w-full px-2 md:border-l border-gray-300 md:pb-0 pb-2.5 text-right">
                     پاسخگویی در روزهای کاری از ساعت 8 الی 20
                 </span>
