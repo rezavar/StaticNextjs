@@ -11,14 +11,6 @@ export default (phase: string):NextConfig => {
         trailingSlash: true,
         distDir: 'build',
         basePath: basePath,
-        // publicRuntimeConfig: {
-        //     basePath,
-        // },
-        // headers :async ()=>{
-        //     return [
-        //
-        //     ];
-        // },
         env: {
             basePath,
         },
@@ -26,5 +18,8 @@ export default (phase: string):NextConfig => {
             // This could be anything, using the latest git hash
             return "Test5PkQ4Vf6Yx_feature"
         },
+        // eslint: {
+        //     ignoreDuringBuilds: true,
+        // },
     }
 }
